@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+runs/
+.streamlit/secrets.toml
+.env
+models/*
+!models/.gitkeep
