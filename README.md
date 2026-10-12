@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Pytest](https://img.shields.io/badge/Testing-Pytest-yellow.svg)](https://docs.pytest.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 **Smart Buyer Advisor** is an AI-powered e-commerce research and decision-support agent. It aggregates product pricing across multiple search providers, cleans and structures live market data, analyzes Arabic user sentiment using custom NLP/Transformer models, and generates insightful buyer reports using Anthropic Claude.
 
@@ -111,7 +111,7 @@ $$\text{Value} = w \cdot \left(\frac{\text{Min Price}}{\text{Item Price}}\right)
 ### Pipeline Overview
 The repository includes a standalone CLI (`train_sentiment.py`) to fine-tune custom sentiment analysis models for Arabic e-commerce reviews (Modern Standard Arabic & Regional Dialects).
 
-```text
+```
 Raw Data ──> Normalization ──> Stratified Split ──> TF-IDF Baseline / BERT Fine-Tuning ──> HMAC Verification ──> Runtime Auto-Discovery
 ```
 
@@ -169,4 +169,6 @@ Trained models are exported to `models/` (`sentiment_bert/` or `sentiment_tfidf.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)** - see the [LICENSE](LICENSE) file for full details. 
+
+Copyright (C) 2026 Saif.
